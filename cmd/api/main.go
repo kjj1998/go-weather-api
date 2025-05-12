@@ -8,7 +8,10 @@ import (
 	"time"
 )
 
-const version = "1.0.0"
+const (
+	version     = "1.0.0"
+	environment = "development"
+)
 
 type application struct {
 	logger *slog.Logger
